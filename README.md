@@ -4,7 +4,7 @@
 
 You can open this sample in the Dev Environments feature of Docker Desktop version 4.12 or later.
 
-[Open in Docker Dev Environments <img src="../open_in_new.svg" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/react-express-mysql)
+[Open in Docker Dev Environments <img src="https://user-images.githubusercontent.com/110657529/209978623-57a5cf53-470e-4b68-8573-afce8b7d95e8.png" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/react-express-mysql)
 
 ### React application with a NodeJS backend and a MySQL database
 
@@ -23,7 +23,7 @@ Project structure:
 └── README.md
 ```
 
-[_compose.yaml_](compose.yaml)
+compose.yaml
 ```
 services:
   backend:
@@ -83,7 +83,7 @@ a434bce6d2be        mysql:8.0.19                   "docker-entrypoint.s…"   8 
 
 After the application starts, navigate to `http://localhost:3000` in your web browser.
 
-![page](./output.png)
+![image](https://user-images.githubusercontent.com/110657529/209978593-2a3a0387-9f0a-4744-83b3-f2dda1ed8486.png)
 
 
 The backend service container has the port 80 mapped to 80 on the host.
